@@ -79,6 +79,10 @@ public class CityList {
     }
 
     public boolean hasTwoCities(){
+        if (cities.size()==2){
+            return true;
+        }
+        else
         return false;
     }
 }
